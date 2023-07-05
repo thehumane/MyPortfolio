@@ -14,14 +14,19 @@
         padding:0;
     }
     body{
-        background-color: rgb(25, 67, 145);
+        background-color:#03045e;
+        color:#caf0f8;
+        font-family: 'Poppins',sans-serif;
+        
 
     }
     nav{
         display:flex;
         justify-content: space-around;
         align-items:center;
-        height:30px;
+        height:75px;
+        background-color: #023e8a;;
+        font-weight: bold;
         
     }
     nav ul{
@@ -33,6 +38,29 @@
         list-style:none;
         margin:0 23px;
     }
+    .left{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .first{
+        display:flex;
+        justify-content: space-around;
+        margin:23px 0;
+    }
+    .first div{
+        width: 30%;
+    }
+    .leftSection{
+        background-color:#0077b6;
+        width:34px;
+        font-display: block;
+
+    }
+    .rightSection{
+        background-color:#0077b6;
+        width:34px;
+    }
+
   </style>
 </head>
 <body>
@@ -40,13 +68,21 @@
         <nav>
             <div class="left">Shrishti's Portfolio</div>
             <div class="right">
-                <li>Home</li>
+                <ul><li>Home</li>
                 <li>About</li>
                 <li>Experience</li>
                 <li>Projects</li>
-                <li>Conatct Me</li>
+                <li>Contact Me</li></ul>
             </div>
         </nav>
     </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">Hey there,
+                <div>My Name is Shrishti Akhouri</div>
+            </div>
+            <div class="rightSection">Hi</div>
+        </section>
+    </main>
 </body>
 </html>
